@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Poppins-M;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(fonts/Poppins-Light.ttf);
+}
+
+:root{
+    --clr-blue: rgb(56, 56, 255);
+    --clr-blue-light: #0E62FD;
+    --clr-darker-blue: rgb(45, 45, 196);
+    --clr-transparent-blue: ;
+    --clr-stylish-gray: rgb(63, 63, 63);
+}
+
+::selection{
+    color: white;
+    background-color: rgb(30, 30, 30);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 2px 0.2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.header .main-header-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .main-header-content .navbar{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .main-header-content .navbar a{
+    padding: 7px 35px;
+    font-family: Poppins-M;
+    color: gray;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.header .main-header-content .navbar a:hover{
+    color: var(--clr-blue);
+}
+
+.main-header-content .buttons{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-header-content .buttons .button-1 button{
+    font-family: Poppins-M;
+    background-color: white;
+    color: var(--clr-blue);
+    cursor: pointer;
+    border: 1px solid var(--clr-blue);
+    width: 100px;
+    height: 60px;
+}
+
+.main-header-content .buttons .button-2 button{
+    font-family: Poppins-M;
+    font-size: large;
+    background-color: var(--clr-blue);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 6px 25px;
+    transition: background-color 0.25s;
+}
+
+.main-header-content .buttons .button-2 button:hover{
+    background-color: var(--clr-darker-blue);
+}
+
+#link-button-icon{
+    filter: invert(27%) sepia(97%) saturate(6516%) hue-rotate(237deg) brightness(100%) contrast(103%);;
+}
+
+.main-header-content .buttons .button-1, .button-2{
+    margin: 10px;
+}
+
+.main-content{
+    font-family: Poppins-M;
+    display: flex;
+    margin: 50px 225px 0px 225px;
+    flex-direction: row;
+}
+
+.main-content .main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.main-content .main-div h3{
+    color: gray;
+}
+
+.main-content .main-div .inovacao-label{
+    color: var(--clr-blue);
+}
+
+.main-content .main-div .up-text{
+    margin-bottom: 20px;
+}
+
+.main-content .main-div .main-text{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    color: var(--clr-stylish-gray);
+}
+
+.main-content .main-div .down-text{
+    font-size: 15px;
+    font-family: Poppins-Light;
+    color: var(--clr-stylish-gray);
+    margin-bottom: 10px;
+}
+
+.main-div-button button{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Poppins-M;
+    padding: 7px 22px;
+    background-color: var(--clr-blue-light);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.main-div-button button:hover{
+    transform: scale(1.1);
+}
+
+.doctor-img{
+    display: flex;
+    justify-content: left;
+    width: 30%;
+    height: 500px;
+}
+
+.container-box{
+    background-color: var(--clr-blue);
+}
