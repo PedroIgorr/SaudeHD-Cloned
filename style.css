@@ -12,7 +12,7 @@
     --clr-blue: rgb(56, 56, 255);
     --clr-blue-light: #0E62FD;
     --clr-darker-blue: rgb(45, 45, 196);
-    --clr-transparent-blue: ;
+    --clr-transparent-blue: rgba(146, 125, 255, 0.145);
     --clr-stylish-gray: rgb(63, 63, 63);
 }
 
@@ -20,6 +20,7 @@
     color: white;
     background-color: rgb(30, 30, 30);
 }
+
 
 *{
     box-sizing: border-box;
@@ -164,5 +165,24 @@
 }
 
 .container-box{
-    background-color: var(--clr-blue);
+    background-color: var(--clr-transparent-blue);
+    width: 80%;
+    height: 300px;
+    margin: 20px 100px 0 160px;
+}
+
+.container-box .container-elements{
+    font-family: Poppins-M;
+    display: flex;
+    flex-direction: row;
+    padding: 35px 30px;
+    gap: 100px;
+}
+
+.container-box .container-elements .container-element-2 h4{
+    font-family: Poppins-Light;
+}
+
+.container-box .container-elements .container-element-3 h4{
+    font-family: Poppins-Light;
 }
