@@ -286,6 +286,11 @@
     cursor: pointer;
 }
 
+.apps-section-box .apps-section-box-content .content-1 .content-1-text h3{
+    font-size: 24px;
+    color: var(--clr-stylish-gray);
+}
+
 .apps-section-box .apps-section-box-content .content-1 .content-1-text:hover h5{
     color: var(--clr-stylish-gray);
 }
@@ -298,6 +303,11 @@
 
 .content-2 img{
     margin-left: -90px;
+    transition: 0.25s;
+}
+
+.content-2 img:hover{
+    transform: scale(1.1);
 }
 
 .content-2-text{
@@ -327,4 +337,56 @@
 
 .content-2-text:hover h5{
     color: var(--clr-stylish-gray);
+}
+
+.content-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.content-3-text{
+    border: 1px solid rgb(247, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.content-3-text h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: var(--clr-stylish-gray);
+}
+
+.content-3-text h5{
+    font-family: Poppins-Light;
+    color: gray;
+    line-height: 25px;
+    transition: 0.25s;
+}
+
+.content-3-text:hover h5{
+    color: var(--clr-stylish-gray);
+}
+
+.plans-text{
+    font-family: Poppins-M;
+    text-align: center;
+}
+
+.plans-text h4{
+    font-size: 16px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.plans-text h2{
+    font-size: 35px;
+    color: var(--clr-stylish-gray);
+    font-weight: bolder;
+}
+
+.plans-text h2 label{
+    color: var(--clr-blue-light);
 }
