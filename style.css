@@ -13,8 +13,11 @@
     --clr-blue-light: #0E62FD;
     --clr-darker-blue: rgb(45, 45, 196);
     --clr-transparent-blue: rgba(146, 125, 255, 0.145);
+    --clr-super-transparent-blue: rgba(45, 45, 196, 0.382);
     --clr-alive-blue: #367cff;
     --clr-stylish-gray: rgb(63, 63, 63);
+    --clr-blacker-gray: rgb(50, 50, 50);
+    --clr-beautiful-purple: #5025D1;
 }
 
 ::selection{
@@ -394,3 +397,182 @@
 .plans-text h2 label{
     color: var(--clr-blue-light);
 }
+
+.pricing-max-container{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins-M;
+}
+
+.pricing-max-container .pricing-section{
+    background-color: yellow;
+    width: 80%;
+    height: 1000px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-toggler-sec{
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 50px;
+    background-color: purple;
+    margin-top: 5px;
+}
+
+.pricing-toggler-sec .pricing-toggler{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+}
+
+.pricing-toggler-sec .pricing-toggler div:hover{
+    cursor: pointer;
+}
+
+.box-active{
+    background-color: var(--clr-blue-light);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.pricename{
+    padding: 10px 15px;
+}
+
+.pricename:active{
+    border: 0.5px solid gray;
+}
+
+.pricing-tables-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #0E62FD;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.pricing-tables{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding: 15px;
+}
+
+.pricing-tables .pricing-table{
+    background-color: white;
+    border: 2px solid rgb(169, 169, 169);
+    border-radius: 5px;
+    width: 35%;
+    height: 100%;
+    margin: 0 15px 0 15px;
+}
+
+.pricing-table .pricing-table-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.high-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.high-texts .main-cnt-txt{
+    font-size: 25px;
+    color: var(--clr-blacker-gray);
+}
+
+.high-texts .del-txt{
+    color: gray;
+}
+
+#ecnmz-1{
+    background-color: var(--clr-super-transparent-blue);
+    color: var(--clr-blue-light);
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+    font-weight: lighter;
+}
+
+.main-pric-tab-area{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    padding-bottom: 10px;
+}
+
+.main-pric-tab-area div, span, button{
+    margin: 10px 0;
+}
+
+.main-pric-tab-area h2{
+    color: var(--clr-blue-light);
+    font-weight: bolder;
+}
+
+.main-pric-tab-area .price{
+    display: inline-block;
+    font-size: 50px;
+}
+
+.paragraph{
+    color: gray;
+    align-self: center;
+}
+
+.btn{
+    background-color: var(--clr-blue-light);
+    font-family: Poppins-M;
+    font-weight: bolder;
+    padding: 15px 35px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-main-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.list-main-container label{
+    font-size: 20px;
+}
+
+
+.main-list{
+    margin: 10px;
+}
+
+.main-list ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.main-list ul li::before{
+    content: '\2714';
+}
+
+#h4-2{
+    color: #5025D1;
+}
+
