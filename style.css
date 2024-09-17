@@ -18,13 +18,13 @@
     --clr-stylish-gray: rgb(63, 63, 63);
     --clr-blacker-gray: rgb(50, 50, 50);
     --clr-beautiful-purple: #5025D1;
+    --clr-darker-pink: #D33061;
 }
 
 ::selection{
     color: white;
     background-color: rgb(30, 30, 30);
 }
-
 
 *{
     box-sizing: border-box;
@@ -89,10 +89,15 @@
     justify-content: space-evenly;
 }
 
-.main-header-content .buttons .button-1 button{
+.main-header-content .buttons .button-1 .main-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     font-family: Poppins-M;
+    font-size: 15px;
     background-color: white;
     color: var(--clr-blue);
+    padding: 0 0px;
     cursor: pointer;
     border: 1px solid var(--clr-blue);
     width: 100px;
@@ -440,6 +445,7 @@
     border: none;
     border-radius: 10px;
     color: white;
+    transition: 0.50s;
 }
 
 .pricename{
@@ -521,6 +527,10 @@
     margin: 10px 0;
 }
 
+.dvmes{
+    display: none;
+}
+
 .main-pric-tab-area h2{
     color: var(--clr-blue-light);
     font-weight: bolder;
@@ -546,6 +556,14 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#btn-2{
+    background-color: var(--clr-beautiful-purple);
+}
+
+#btn-3{
+    background-color: var(--clr-darker-pink);
 }
 
 .list-main-container{

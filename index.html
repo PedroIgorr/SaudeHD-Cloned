@@ -25,10 +25,12 @@
                 </div>
                 <div class="buttons">
                     <div class="button-1">
-                        <button>
-                            Teste<br> <span><img src="imgs/link_png.png" id="link-button-icon" height="20px"></span>
-                            Grátis
-                        </button>
+                        <div class="main-button">
+                            <div>
+                                Teste<br>Grátis
+                            </div>
+                            <img src="imgs/link_png.png" id="link-button-icon" height="20px">
+                        </div>
                     </div>
                     <div class="button-2">
                         <button>Sou Cliente</button>
@@ -147,12 +149,14 @@
                                     <div class="high-texts">
                                         <h3 class="main-cnt-txt">Personal</h3>
 
-                                        <h4 class="del-txt"><del>R$ 89,90</del></h4>
+                                        <h4 class="del-txt por-ano"><del>R$ 89,90</del></h4>
 
-                                        <h3 id="ecnmz-1">ECONOMIZE 22%</h3>
+                                        <h3 id="ecnmz-1 por-ano">ECONOMIZE 22%</h3>
                                     </div>
                                     <div class="main-pric-tab-area">
-                                        <div><h2> <sup>R$</sup> <div class="price">69,90</div> <sup>/Mês*</sup> </h2></div>
+                                        <div class="dvano"><h2> <sup>R$</sup> <div class="price">69,90</div> <sup>/Mês*</sup> </h2></div>
+
+                                        <div class="dvmes"><h2> <sup>R$</sup> <div class="price">89,90</div> <sup>/Mês*</sup> </h2></div>
 
                                         <span class="paragraph">Plano personalizado para consultórios individuais</span>
 
@@ -183,12 +187,14 @@
                                         <div class="high-texts">
                                             <h3 class="main-cnt-txt">Clínica Starter</h3>
     
-                                            <h4 class="del-txt"><del>R$ 499,90</del></h4>
+                                            <h4 class="del-txt por-ano"><del>R$ 499,90</del></h4>
     
-                                            <h3 id="ecnmz-1">ECONOMIZE 40%</h3>
+                                            <h3 id="ecnmz-1 por-ano">ECONOMIZE 40%</h3>
                                         </div>
                                         <div class="main-pric-tab-area">
-                                            <div><h2 id="h4-2"> <sup>R$</sup> <div class="price">299,90</div> <sup>/Mês*</sup> </h2></div>
+                                            <div class="dvano"><h2 id="h4-2"> <sup>R$</sup> <div class="price por-ano">299,90</div> <sup>/Mês*</sup> </h2></div>
+
+                                            <div class="dvmes"><h2 id="h4-2"> <sup>R$</sup> <div class="price por-mes">499,90</div> <sup>/Mês*</sup> </h2></div>
     
                                             <span class="paragraph">Plano para clínicas que estão iniciando uma estratégia de crescimento</span>
     
@@ -215,7 +221,40 @@
                             </div>
                             <div class="pricing-table">
                                 <div class="pricing-table-content">
-                                    
+                                    <div class="pricing-table-content">
+                                        <div class="high-texts">
+                                            <h3 class="main-cnt-txt">Premium</h3>
+    
+                                            <h4 class="del-txt por-ano"><del>R$ 699,90</del></h4>
+    
+                                            <h3 id="ecnmz-1 por-ano">ECONOMIZE 40%</h3>
+                                        </div>
+                                        <div class="main-pric-tab-area">
+                                            <div class="dvano"><h2 id="h4-2" class="pink-txt"> <sup>R$</sup> <div class="price por-ano">499,90</div> <sup>/Mês*</sup> </h2></div>
+
+                                            <div class="dvmes"><h2 id="h4-2" class="pink-txt"> <sup>R$</sup> <div class="price por-mes">699,90</div> <sup>/Mês*</sup> </h2></div>
+    
+                                            <span class="paragraph">Plano para clínicas que estão iniciando uma estratégia de crescimento</span>
+    
+                                            <button class="btn" id="btn-3">Contratar</button>
+                                        </div>
+                                        <div class="list-main-container">
+                                            <div class="list-content">
+                                                <label>Recursos do plano Starter:</label>
+
+                                                <p>Tudo do plano Personal e mais:</p>
+                                                <div class="main-list">
+                                                    <ul>
+                                                        <li> Até 3 profissionais + 2 atendentes</li>
+                                                        <li> Profissionais avulsos + R$ 59,90</li>
+                                                        <li> Totem de Autoatendimento</li>
+                                                        <li> Painel de chamadas</li>
+                                                        <li> Relatórios</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -229,6 +268,8 @@
     <footer>
 
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
