@@ -11,6 +11,7 @@
 :root{
     --clr-blue: rgb(56, 56, 255);
     --clr-blue-light: #0E62FD;
+    --clr-darker-blue-2: #2f78ff;
     --clr-darker-blue: rgb(45, 45, 196);
     --clr-transparent-blue: rgba(146, 125, 255, 0.145);
     --clr-super-transparent-blue: rgba(45, 45, 196, 0.382);
@@ -121,7 +122,7 @@
 }
 
 #link-button-icon{
-    filter: invert(27%) sepia(97%) saturate(6516%) hue-rotate(237deg) brightness(100%) contrast(103%);;
+    filter: invert(27%) sepia(97%) saturate(6516%) hue-rotate(237deg) brightness(100%) contrast(103%);
 }
 
 .main-header-content .buttons .button-1, .button-2{
@@ -410,7 +411,6 @@
 }
 
 .pricing-max-container .pricing-section{
-    background-color: yellow;
     width: 80%;
     height: 1000px;
     margin-top: 40px;
@@ -424,7 +424,6 @@
     justify-content: center;
     width: 230px;
     height: 50px;
-    background-color: purple;
     margin-top: 5px;
 }
 
@@ -460,7 +459,6 @@
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: #0E62FD;
     margin-top: 40px;
     justify-content: center;
 }
@@ -494,6 +492,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.above-starter-sentence{
+    font-family: Poppins-Light;
+    height: 100%;
+    width: 70%;
+    background-color: var(--clr-beautiful-purple);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 8px;
+    transform: translateY(-42px);
 }
 
 .high-texts .main-cnt-txt{
@@ -542,8 +554,11 @@
 }
 
 .paragraph{
-    color: gray;
+    font-family: Poppins-Light;
+    color: var(--clr-stylish-gray);
     align-self: center;
+    display: flex;
+    text-align: center;
 }
 
 .btn{
@@ -594,3 +609,155 @@
     color: #5025D1;
 }
 
+.business-plan-max-container{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.business-plan-container{
+    width: 500px;
+    height: 390px;
+    margin-top: 60px;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
+.above-sentence-max-container{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.above-sentence{
+    background-color: var(--clr-blue-light);
+    border-radius: 10px;
+    width: 70%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-17px);
+}
+
+.above-sentence h5{
+    font-family: Poppins-Light;
+    display: inline-block;
+    color: white;
+}
+
+.business-plan-content .main-text{
+    font-family: Poppins-M;
+    font-size: 40px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-plan-content .main-text label{
+    font-weight: bolder;
+    color: var(--clr-blue-light);
+}
+
+.just-a-border{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.just-a-border .just-a-border-2{
+    width: 45%;
+    height: 100%;
+    border-bottom: 2px solid rgb(185, 185, 185);
+}
+
+.middle-texts-container{
+    font-family: Poppins-M;
+    color: gray;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.middle-texts-container .middle-texts{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.button-FC-max-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.button-FC{
+    font-family: Poppins-M;
+    background-color: var(--clr-darker-blue-2);
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.button-FC:hover{
+    transform: scale(1.1);
+}
+
+.button-FC-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button-FC-content div{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    filter: invert(100%);
+}
+
+.button-FC-content img::selection{
+    background: white;
+}
+
+.button-FC-content label{
+    cursor: pointer;
+}
+
+.super-div{
+    width: 100%;
+    height: 1024px;
+    background-color: coral;
+}
+
+.span-down-label-text{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.down-label-text{
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
